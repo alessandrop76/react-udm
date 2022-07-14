@@ -1,0 +1,124 @@
+body{
+  background-color: rgba(234, 231, 231, 0.589);
+}
+img{
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+}
+button{
+  width: 250px;
+  height: 30px;
+  border-radius: 50px;
+  background-color: rgba(70, 206, 244, 0.584);
+  border: outset;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.images{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.manageData{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  min-height:120px;
+  height: 120px auto;
+  background-color: rgba(30, 10, 143, 0.5);
+  margin-top: 20px;
+}
+.lists{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 500%;
+}
+.sections{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  height: 80px;
+  padding: 20px;
+  background-color: rgba(100, 100, 237, 0.555);
+  margin-top: 10px;
+}
+.conditional{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items:center;
+  width: 100%;
+  height: 200px auto;
+  padding: 20px;
+  border: 1px solid rgba(100, 100, 237, 0.555);
+  background-color: rgba(100, 100, 237, 0.29);
+  margin-top: 10px;
+}
+.true{
+  color: rgb(243, 255, 15);
+}
+.false{
+  color: rgb(176, 8, 8);
+}
+.loopCars{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items:center;
+  width: 100%;
+  height: 200px auto;
+  margin-top: 10px;
+}
+table{
+  width: 100%;
+  height: 20px;
+  border: 1px solid #000;
+}
+.btnMsg{
+  width: 70px;
+  height: 30px;
+  border-radius: 50px;
+  background-color: rgba(70, 206, 244, 0.584);
+  border: outset;
+}
