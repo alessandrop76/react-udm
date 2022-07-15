@@ -1,0 +1,27 @@
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica Neue",Helvetica,Arial;
+  padding-bottom: 500px;
+}
+
+h1{
+  color: red;
+}
+p{
+  color: white;
+  background-color: #493333;
+}
+.title1{
+  color: yellow;
+  background-color: black;
+  padding: 15px;
+  border: 2px solid pink;
+}
+.title2{
+  color: black;
+  background-color: yellow;
+  padding: 15px;
+  border: 2px solid red;
+}
