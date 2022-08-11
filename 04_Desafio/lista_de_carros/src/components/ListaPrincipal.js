@@ -18,7 +18,7 @@ const mainCars = [
     {id: 2, brand:"Bentley", logo:logo2, km:5000, color:"Blue"},
     {id: 3, brand:"Chrysler", logo:logo3,  km:24900, color:"Black"},
     {id: 4, brand:"Daewoo", logo:logo4, km:19300, color:"Gray"},
-    {id: 5, brand:"Fiat", logo:logo5, km:0, color:"Celest"},
+    {id: 5, brand:"Fiat", logo:logo5, km:0, color:"Deep Blue"},
     {id: 6, brand:"GMC", logo:logo6, km:1000300, color:"Sky Blue"},
     {id: 7, brand:"Honda", logo:logo7, km:99000, color:"Pink"},
     {id: 8, brand:"Jaguar", logo:logo8, km:44888, color:"Ice"},

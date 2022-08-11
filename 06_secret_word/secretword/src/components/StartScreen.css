@@ -1,0 +1,29 @@
+.start h1{
+    font-size: 3.5rem;
+}
+.start p{ 
+    color: yellow;
+}
+.start button{
+    width: 230px;
+    height: 45px;
+    border: 2px solid #dbd7d7;
+    border-radius: 50px;
+    mask-border-outset: initial;
+    font-size: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: linear-gradient(
+        100deg,   
+        #882288 0,
+        #559944 100%
+    );
+    color: #fff;
+}
+button:hover{
+    background: linear-gradient(
+        100deg,   
+       #559944 0,
+       #023a158a 100%
+    );
+    font-weight: bolder;
+}
