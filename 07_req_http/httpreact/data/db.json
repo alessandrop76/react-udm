@@ -1,0 +1,94 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Camisa",
+      "price": 59.9
+    },
+    {
+      "id": 2,
+      "name": "Calça Vermelha",
+      "price": 90
+    },
+    {
+      "id": 3,
+      "name": "Boné aba reta",
+      "price": 29.9
+    },
+    {
+      "id": 4,
+      "name": "Agasalho",
+      "price": 452
+    },
+    {
+      "id": 5,
+      "name": "Tenis",
+      "price": "320"
+    },
+    {
+      "id": 6,
+      "name": "Bota",
+      "price": 320
+    },
+    {
+      "id": 7,
+      "name": "Jaqueta",
+      "price": 1.23
+    },
+    {
+      "id": 8,
+      "name": "Bermuda",
+      "price": 28.9
+    },
+    {
+      "id": 9,
+      "name": "Blusa",
+      "price": 112.9
+    },
+    {
+      "id": 10,
+      "name": "Calça Jeans",
+      "price": 290.9
+    },
+    {
+      "id": 11,
+      "name": "Camisa Jeans",
+      "price": 312
+    },
+    {
+      "id": 12,
+      "name": "Sapatenis",
+      "price": 209
+    },
+    {
+      "id": 13,
+      "name": "Camista Regata",
+      "price": 99
+    },
+    {
+      "id": 14,
+      "name": "T-Shirt",
+      "price": 133
+    },
+    {
+      "id": 15,
+      "name": "Camisa Polo",
+      "price": 200
+    },
+    {
+      "id": 16,
+      "name": "T-Shirt Poliester",
+      "price": 120
+    },
+    {
+      "id": 17,
+      "name": "T-Shirt Poliester",
+      "price": 203
+    },
+    {
+      "id": 18,
+      "name": "T-Shirt Poliester",
+      "price": 120
+    }
+  ]
+}

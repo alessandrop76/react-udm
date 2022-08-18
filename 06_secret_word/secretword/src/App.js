@@ -32,7 +32,7 @@ const stages = [{
 ];
 
 function App() {
-  const [gameStage, setGameStage] = useState(stages[0].name);
+  const [gameStage, setGameStage] = useState(stages[1].name);
 
   // const [words, setWords] = useState(wordList);
   // console.log(words)
@@ -155,8 +155,8 @@ if( guessedLetters.length === uniqueLetters.length){
 
 
 
-  return ( <div className = "App" >
-
+  return ( 
+      <div className = "App" >
       {gameStage === "start" && < StartScreen startGame = {startGame}/>}
       {gameStage === "game" && < GameScreen verifyLetter = {verifyLetter} pickedWords = 
           {
@@ -184,11 +184,8 @@ if( guessedLetters.length === uniqueLetters.length){
             score
           }
           />}
-           {gameStage === "end" && < EndScreen retry = {retry}
-           score={score}
-            />}
-
-            </div>
+           {gameStage === "end" && < EndScreen retry = {retry} score={score} />}
+          </div>
           );
         }
 
