@@ -13,3 +13,6 @@ Curso de React (c/ hooks, router, API, Projetos)
 ## Requisições http get / post / delete
 <img width="677" alt="image" src="https://user-images.githubusercontent.com/48811968/185445908-18319334-3dc1-4fe8-bfb9-c6712aa87912.png">
 
+## React Routers
+<img width="680" alt="image" src="https://user-images.githubusercontent.com/48811968/186968027-19ddadf8-e8e2-45ea-bcb2-de9e4961f5e2.png">
+
