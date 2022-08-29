@@ -1,0 +1,68 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  text-align: center;
+}
+.container {
+  display: flex;
+  margin: auto;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 90%;
+  height: 200px auto;
+  background: linear-gradient(rgba(242, 243, 153, 0.153), rgba(246, 252, 130, 0.135));
+  padding: 14px;
+  border-radius: 5px;
+
+  }
+.cards{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 30%;
+  height: 200px auto;
+  border: 1px solid rgb(245, 6, 209);
+  border-radius: 5px;
+  margin-top:30px;
+  padding: 5px;
+}
+.cards .card-body{
+width: 100%;
+background: rgba(112, 14, 157, 0.212);
+border-radius: 5px;
+padding: 3px;
+}
+.card-body .h5{
+  display: flex;
+  margin-top: -31px;
+  margin-left: -30px;
+  background: rgb(153, 152, 215);
+  text-align: left;
+  border: 2px solid;
+  border-radius: 5px;
+  height: 30px;
+  align-items: center;
+  padding-left: 25px;
+  font-family:'Courier New', Courier, monospace;
+  font-weight: bold;
+  font-size: 1.2em;
+  color: rgb(255, 255, 255);
+}
+.cards .card-title{
+  font-size: 1.2em;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(70, 70, 70);
+}
+.cards .card-subtitle{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 0.8em;
+}
+.btn{
+  width: 100%;
+  height: 30px;
+  text-decoration: none;
+}
+
