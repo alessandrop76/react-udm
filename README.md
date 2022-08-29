@@ -18,3 +18,4 @@ Curso de React (c/ hooks, router, API, Projetos)
 
 ## React Context API
 
+<img width="679" alt="pic1" src="https://user-images.githubusercontent.com/48811968/187315018-489c822a-42b0-4868-954d-8e2a1788bafd.png">
