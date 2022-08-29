@@ -1,0 +1,35 @@
+.bts{
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    align-items: center
+}
+
+#red{
+    margin-left: 15px;
+    padding: 5px;
+    width: 100px;
+    border: 1px solid rgb(68, 49, 49);
+    border-radius: 23px;
+    color: rgb(218, 209, 209);
+    background-color: rgb(255, 17, 0);
+}
+
+#blue{
+    margin-left: 15px;
+    padding: 5px;
+    width: 100px;
+    border: 1px solid rgb(68, 49, 49);
+    border-radius: 23px;
+    color: rgb(218, 209, 209);
+    background-color: rgb(0, 42, 255);
+}
+button{
+    margin-left: 15px;
+    padding: 5px;
+    width: 100px;
+    border: 1px solid rgb(68, 49, 49);
+    border-radius: 23px;
+    color: rgb(218, 209, 209);
+    background-color: rgb(84, 84, 85);
+}

@@ -5,7 +5,7 @@ export const ChangeContext = () => {
     const {counter, setCounter} = useContext(CounterContext)
 
   return (
-    <button onClick={() => setCounter(counter + 1)}>Adicionar</button>
+    <button onClick={() => setCounter(counter + 1)}>add  +1 </button>
   )
 }
 
