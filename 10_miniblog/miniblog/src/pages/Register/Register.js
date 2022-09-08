@@ -15,10 +15,10 @@ const Register = () => {
   const [confirmPassword, setConfirmPassword] = useState("")
   const [error, setError] = useState("")
   
-  const { createUser, error: authError, loading } = useAuthentication();
-
   const passwordInputRef = useRef(null);
   const emailInputRef = useRef(null);
+
+  const { createUser, error: authError, loading } = useAuthentication();
 
  
 
@@ -39,6 +39,7 @@ const Register = () => {
         setConfirmPassword("");
         passwordInputRef.current.focus();
         return
+        
         
       }else if(email !== confirmEmail){
         setError("os emails não correspondem");

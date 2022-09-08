@@ -1,4 +1,4 @@
-import { db } from '../firebase/config';
+import {db} from '../firebase/config'
 
 import{ 
     getAuth,
@@ -24,14 +24,15 @@ export const useAuthentication = () =>{
         if(cancelled){
             return;
         }
-    }
+    };
 
     const createUser = async(data) =>{
         checkIfIsCancelled();
+
         setLoading(true);
 
         try{
-            const {user} = await createUserWithEmailAndPassword(
+            const { user } = await createUserWithEmailAndPassword(
                 auth,
                 data.email,
                 data.password                
@@ -48,7 +49,7 @@ export const useAuthentication = () =>{
         }
 
         setLoading(false)
-    }
+    };
 
     useEffect(()=>{
         return () => setCancelled(true);

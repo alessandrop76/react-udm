@@ -1,6 +1,8 @@
 # react-udm
 Curso de React (c/ hooks, router, API, Projetos)
 
+O material deste repositório foi desenvolvido através deste repositório original:
+https://github.com/matheusbattisti/curso_react 
 - Nível Básico
 -- configurações iniciais - instalação do nodejs e configuração das variáveis de ambiente - gerenciador de pacotes npm
 -- instalação do vscode
